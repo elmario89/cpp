@@ -1,0 +1,5 @@
+﻿  SetsTheory.cpp
+D:\projects\SetsTheory\SetsTheory\SetsTheory.cpp(101,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\projects\SetsTheory\SetsTheory\SetsTheory.cpp(103,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\projects\SetsTheory\SetsTheory\SetsTheory.cpp(124,31): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  SetsTheory.vcxproj -> D:\projects\SetsTheory\x64\Debug\SetsTheory.exe
