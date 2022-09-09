@@ -153,7 +153,7 @@ int main()
     auto t2 = high_resolution_clock::now();
 
     // log perfomance
-    log_timer(t1, t2, "ms to find the instersection");
+    log_timer(t1, t2, "ms to find the intersection");
 
     cout << "The intersection size is -> ";
     cout << intersect.size() << "\n\n";
@@ -172,7 +172,7 @@ int main()
     auto vectorT2 = high_resolution_clock::now();
 
     // log perfomance
-    log_timer(vectorT1, vectorT2, "ms to find the instersection with arrays");
+    log_timer(vectorT1, vectorT2, "ms to find the intersection with arrays");
 
     cout << "The slow array intersection size is -> ";
     cout << size << endl;
