@@ -93,7 +93,7 @@ vector <string> get_vector(string file_name)
 }
 
 // MANUAL INTERSECTION AKA A⋂B WITHOUT USING set_intersection, DO NOT DO THIS
-// ASSYMTOMIC TIME IS O(|setA| * |setB|), IT IS SLOW
+// ASSYMTOMIC TIME IS O(pow(max(|setA|,|setB|)), IT IS SLOW
 int findIntersection(vector<string> A, vector<string> B)
 {
     vector <string> intersection;
@@ -112,7 +112,6 @@ int findIntersection(vector<string> A, vector<string> B)
         {
             if (A[i] == B[j])
             {
-                //cout << A[i] + "->" + B[j] + "\n";
                 intersection.push_back(A[i]);
             }
         }
